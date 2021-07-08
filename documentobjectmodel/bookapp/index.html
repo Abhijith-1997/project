@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>create book</h1>
+        <div class="row">
+            <input type="text"placeholder="book_name"id="b_name">
+            
+        </div>
+        <div class="row">
+            <input type="text"placeholder="author"id="b_author">
+        </div>
+        <div class="row">
+            <input type="text"placeholder="price"id="b_price">
+        </div>
+        <div class="row">
+            <input type="text"placeholder="pages"id="b_pages">
+        </div>
+        <div>
+            
+        
+        <button type="button"id="btn" onclick="createBook()">create book</button>
+    </div>
+    <input type="text"placeholder="enter bookname"id="bk_name">
+    <button type="button"id="btn"onclick="findBook()" >search</button>
+    <div class="row">
+        <div class="colo-4"></div>
+        <div class="colo-4"id="result"></div>
+   </div>
+   <div>
+    <button type="submit"onclick="allBooks()">list all book</button>
+</div>
+</body>
+</html>

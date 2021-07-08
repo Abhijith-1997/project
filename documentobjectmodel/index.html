@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div
+    class="calc" style="text-align: center;">
+    <h1>CALCULATOR</h1>
+    <div class="text">
+        <input type="text"class="txt" id="impt">
+        <button class="cancel" onclick="clearBox() "value="c">C</button>
+    </div>
+    <div class="first-row">
+    <input class="from" onclick="displayvalue('1')" type="button"  value="1">
+    <input class="from" onclick="displayvalue('2')" type="button" value="2">
+    <input class="from" onclick="displayvalue('3')"type="button" value="3">
+    <input class="from" onclick="displayvalue('+')" type="button" value="+">
+</div>
+<div class="second-row">
+    <input class="from" onclick="displayvalue('4')" type="button" value="4">
+    <input class="from" onclick="displayvalue('5')"type="button" value="5">
+    <input class="from" onclick="displayvalue('6')"type="button" value="6">
+    <input class="from"  onclick="displayvalue('-')"type="button" value="-">
+</div>
+<div class="third-row">
+    <input class="from"onclick="displayvalue('7')"  type="button" value="7">
+    <input class="from" onclick="displayvalue('8')" type="button" value="8">
+    <input class="from" onclick="displayvalue('9')" type="button" value="9">
+    <input class="from" onclick="displayvalue('*')" type="button" value="*">
+</div>
+<div class="fourth-row">
+    <input class="from"onclick="displayvalue('/')" type="button" value="/">
+    <input class="from"onclick="displayvalue('0')" type="button" value="0">
+    <input class="from"onclick="displayvalue('.')" type="button" value=".">
+    <input class="from"onclick="evaluateExpression()"type="button" value="=">
+</div>
+</div>
+    
+</body>
+</html>

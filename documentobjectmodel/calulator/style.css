@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+.calc{
+    color: cadetblue;
+}
+.btn{
+    width: 60px;
+    height:50px;
+    margin-top: 1px;
+    text-align: center;
+}
+#inpt{
+    width: 120px;
+    height: 49px;
+    text-align: center;
+    border: none;
+    
+}
+.cancel{
+    width: 60px;
+    height: 50px;
+}

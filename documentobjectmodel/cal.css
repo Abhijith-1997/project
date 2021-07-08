@@ -1,0 +1,28 @@
+body{
+    background-color:black;
+}
+.calc{
+    color:red;
+    margin-top: 100px;
+}
+.txt{
+    width: 155px;
+    height: 40px;
+    text-align: center;
+    border: none;
+
+}
+.cancel{
+    width: 60px;
+    height: 55px;
+    background-color: red;
+    
+}
+.from{
+    width: 50px;
+    height: 45px;
+    color: silver;
+
+    margin-top:1px;
+    
+}

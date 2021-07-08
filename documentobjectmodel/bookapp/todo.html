@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="todo1.js"></script>
+</head>
+<body>
+    <div class="row" style="text-align: center;">
+        <div class="row">
+            <input type="text"placeholder="userid" id="u_id">
+            <input type="text"placeholder="title" id="t_id">
+            <input type="text"placeholder="completed"id="c_id">
+        </div>
+        <button type="submit" onclick="createWork()">ok</button>
+        <div>
+            <input type="text"placeholder="enter userid"id="s_id">
+            <button type="submit"onclick="findWork()">find</button>
+        </div>
+        
+    </div>
+    <div class="colo-4"></div>
+    
+        <div class="colo-4"id="result"></div>
+        <div>
+            <button type="submit"onclick="listAll()">list all </button>
+            <input type="text"placeholder="enter userid"id="v_id">
+            <button type="submit"onclick="searchButton()">search </button>
+        </div>
+    
+</body>
+</html>
